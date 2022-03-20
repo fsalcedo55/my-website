@@ -6,9 +6,9 @@ export default function Contact() {
     <section className="text-gray-300 body-font relative">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
-            Let's Get in Touch
-          </h1>
+          <div className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
+            <p>Let's Get in Touch</p>
+          </div>
           <p className="lg:w-2/3 mx-auto leading-relaxed font-extralight text-sm">
             Feel free to contact me if you're interested in collaborating
           </p>

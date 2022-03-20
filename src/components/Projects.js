@@ -1,16 +1,14 @@
 import React from "react";
 import projectsData from "../data/projectsData";
-import { UsersIcon } from "@heroicons/react/outline";
+import { UsersIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { ExternalLink } from "react-external-link";
-import { Routes, Route } from "react-router-dom";
-import ProjectFeature from "./ProjectFeature";
 
 export default function Projects() {
   return (
     <div className="flex flex-col justify-center">
-      <h1 className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
-        Selected Projects
-      </h1>
+      <div className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
+        <p>Selected Projects</p>
+      </div>
       <div className="flex flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-4 mx-5 my-6 place-self-center md:place-self-center sm:place-self-center z-50">
         {projectsData.map((project) => (
           <div
@@ -81,23 +79,13 @@ export default function Projects() {
                     GitHub
                   </button>
                 </ExternalLink>
-                {/* <button
+                <button
                   className="flex justify-center items-center hover:bg-indigo-900 py-2 px-4 w-48 sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full text-xs font-medium text-white rounded-lg focus:outline-none"
                   type="button"
                 >
                   Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-1"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </button> */}
+                  <ArrowSmRightIcon className="w-5" />
+                </button>
               </div>
             </div>
           </div>
@@ -106,7 +94,3 @@ export default function Projects() {
     </div>
   );
 }
-
-// {/* <Routes>
-//         <Route path="project-feature" element={<ProjectFeature />} />
-//       </Routes> */}

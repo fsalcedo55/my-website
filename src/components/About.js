@@ -3,9 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <section className="text-gray-600" id="About">
-      <h1 className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
-        About Me
-      </h1>
+      <div className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
+        <p>About Me</p>
+      </div>
       <div className="container px-5 py-6 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <div className="rounded-lg h-64 overflow-hidden">
