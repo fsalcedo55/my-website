@@ -2,22 +2,22 @@ const linkData = [
   {
     id: 1,
     text: "Home",
-    url: "#home",
+    url: "/#home",
   },
   {
     id: 2,
     text: "Projects",
-    url: "#projects",
+    url: "/#projects",
   },
   {
     id: 3,
     text: "About",
-    url: "#about",
+    url: "/#about",
   },
   {
     id: 4,
     text: "Contact",
-    url: "#contact",
+    url: "/#contact",
   },
 ];
 

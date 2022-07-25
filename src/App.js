@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import ProjectFeature from "./components/ProjectFeature";
+import NotFound from "./components/NotFound";
 import { ArrowNarrowDownIcon } from "@heroicons/react/outline";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="project-feature" element={<ProjectFeature />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

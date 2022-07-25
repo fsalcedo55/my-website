@@ -1,9 +1,13 @@
-import React from "react";
+import { React } from "react";
 import projectsData from "../data/projectsData";
 import { UsersIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { ExternalLink } from "react-external-link";
 
 export default function Projects() {
+  // const [featuredProject, setFeaturedProject] = useState({
+  //   projectName: "",
+  // });
+
   return (
     <div className="flex flex-col justify-center">
       <div className="flex justify-center 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-16 font-mono h-20 items-center">
@@ -82,6 +86,9 @@ export default function Projects() {
                 <button
                   className="flex justify-center items-center hover:bg-indigo-900 py-2 px-4 w-48 sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full text-xs font-medium text-white rounded-lg focus:outline-none"
                   type="button"
+                  onClick="(handleLearnMore) => {
+                      setProjectFeature
+                    }"
                 >
                   Learn More
                   <ArrowSmRightIcon className="w-5" />

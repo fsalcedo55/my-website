@@ -34,29 +34,33 @@ export default function About() {
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p className="leading-relaxed text-md mb-4 text-gray-200 font-extralight">
-                As an architect-turned-web-developer, I’ve always sought
-                innovation.
-                <br /> <br /> While pursuing my degree in architecture from
-                Florida International University, I discovered my passion for
-                programming after studying the influence of artificial
+                As a full-stack developer, I’ve always sought innovation.
+                <br /> <br /> While pursuing my graduate degree in architecture
+                from Florida International University, I discovered my passion
+                for programming after studying the influence of artificial
                 intelligence on architectural design. Through further
                 exploration and GANs programming, I developed a program that
                 utilized webcam imagery to render objects into architectural
-                images.
+                images. I received the 1st place graduate thesis award for this
+                project.
                 <br /> <br /> This experience, combined with my desire to create
-                innovative digital products, pushed me to enroll in the Ironhack
-                Full-Stack Development Bootcamp. Here, I deepened my knowledge
-                of JavaScript and MERN and was also the 2021 recipient of the
-                Ironhack Final Project Crowd Favorite Award.
+                innovative digital applications, pushed me to enroll in the
+                Ironhack Full-Stack Development Bootcamp. Here, I deepened my
+                knowledge of web technologies and was also the 2020 recipient of
+                the Ironhack Final Project Crowd Favorite Award.
                 <br /> <br />
-                Since 2016, I’ve led a successful architecture career in which
-                my dedication, strong team skills, and design talent have earned
-                me the role of Lead Project Architect on multi-million dollar
-                projects. I vow to bring these same qualities to every project I
-                take on as I pursue this new future in blockchain, Web3, and web
-                development. <br /> <br /> I am well-versed in a multitude of
-                web technologies including Javascript, React, Express, MongoDB,
-                HTML, CSS, and Tailwind.
+                Upon graduating from Ironhack, I've led a successful web
+                development career in which my dedication, strong team skills,
+                and design talent have earned me the position of frontend
+                software engineer. I vow to bring these same qualities to every
+                project I take on as I pursue this new future in blockchain,
+                Web3, and continuing my growth in web development.
+                <br /> <br />
+                More recently in April of 2022, I participated in eMerge
+                Americas x Ironhack 2022 Blockchain Hackathon in which my team
+                won 1st place. <br /> <br /> I am well-versed in a multitude of
+                web technologies including Javascript, React, Next.js, Express,
+                MongoDB, HTML, CSS, and Tailwind.
               </p>
               {/* <a className="text-indigo-500 inline-flex items-center">
                 Learn More

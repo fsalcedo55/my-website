@@ -15,8 +15,8 @@ export default function Home() {
             I like to build things.
           </div>
           <div className="2xl:text-3xl xl:text-3xl lg:text-3xl md:text-xl text-lg font-extralight text-gray-400 py-4">
-            I'm an architect turned full-stack developer who is passionate about
-            building excellent products for people.
+            I'm a full-stack developer who is passionate about building
+            excellent products for people.
           </div>
         </div>
         <div className="relative">
