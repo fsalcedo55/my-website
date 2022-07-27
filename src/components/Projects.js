@@ -2,6 +2,8 @@ import { React } from "react";
 import projectsData from "../data/projectsData";
 import { UsersIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { ExternalLink } from "react-external-link";
+import { Routes, Route, Link } from "react-router-dom";
+import ProjectDetailView from "./views/project-detail/ProjectDetailView";
 
 export default function Projects() {
   // const [featuredProject, setFeaturedProject] = useState({
@@ -83,16 +85,19 @@ export default function Projects() {
                     GitHub
                   </button>
                 </ExternalLink>
-                <button
+                <Link
                   className="flex justify-center items-center hover:bg-indigo-900 py-2 px-4 w-48 sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full text-xs font-medium text-white rounded-lg focus:outline-none"
-                  type="button"
-                  onClick="(handleLearnMore) => {
-                      setProjectFeature
-                    }"
+                  to={`/project-detail/${project.id}`}
                 >
                   Learn More
                   <ArrowSmRightIcon className="w-5" />
-                </button>
+                </Link>
+                <Routes>
+                  <Route
+                    path={`${project.id}`}
+                    element={<ProjectDetailView />}
+                  />
+                </Routes>
               </div>
             </div>
           </div>

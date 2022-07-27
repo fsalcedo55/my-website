@@ -3,8 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
-import ProjectFeature from "./components/ProjectFeature";
-import NotFound from "./components/NotFound";
+import ProjectDetailView from "./components/views/project-detail/ProjectDetailView";
+// import ProjectFeature from "./components/ProjectFeature";
+// import NotFound from "./components/NotFound";
 import { ArrowNarrowDownIcon } from "@heroicons/react/outline";
 
 export default function App() {
@@ -27,8 +28,9 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="project-feature" element={<ProjectFeature />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="project-detail/:id" element={<ProjectDetailView />} />
+        {/* <Route path="project-feature" element={<ProjectFeature />} />
+        <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
     </div>
