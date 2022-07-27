@@ -13,7 +13,7 @@ const projectsData = [
     teamMembers: ["Vadim Loparevich", "Joseph Portelli"],
     deployedURL: "https://car-american.herokuapp.com/",
     githubURL: "https://github.com/vloparevich/inception-vol-2",
-    photo: "images/road.jpg",
+    photo: "/images/road.jpg",
     description:
       "Parses a car listing API to filter cars for sell by brand, year and model. Allows user to save favorite cars, leave comments and reviews.",
     longDescription:
@@ -26,7 +26,7 @@ const projectsData = [
     teamMembers: ["Vadim Loparevich", "Joseph Portelli", "Dria Thomas"],
     deployedURL: "https://the-academy-hacks.netlify.app/",
     githubURL: "https://github.com/vloparevich/academy-hacks",
-    photo: "images/academy-hacks.jpg",
+    photo: "/images/academy-hacks.jpg",
     description:
       "Application allows for users to sign up either as a student or tutor. Students choose a tutor based on the programming language they teach and availability with a calendar. Tutors have the ability to see all their upcoming classes.",
     longDescription:
