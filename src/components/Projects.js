@@ -3,7 +3,7 @@ import projectsData from "../data/projectsData";
 import { UsersIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { ExternalLink } from "react-external-link";
 import { Routes, Route, Link } from "react-router-dom";
-import ProjectDetailView from "./views/project-detail/ProjectDetailView";
+import ProjectDetailView from "./ProjectDetailView";
 
 export default function Projects() {
   // const [featuredProject, setFeaturedProject] = useState({
