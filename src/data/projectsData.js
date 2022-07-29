@@ -15,9 +15,9 @@ const projectsData = [
     githubURL: "https://github.com/vloparevich/inception-vol-2",
     photo: "/images/road.jpg",
     description:
-      "Parses a car listing API to filter cars for sell by brand, year and model. Allows user to save favorite cars, leave comments and reviews.",
+      "This application fetches a car listing API to filter cars for sell by brand, year and model. Allows user to save favorite cars, leave comments and reviews.",
     longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "This application fetches a car listing API to filter cars for sell by brand, year and model. Allows user to save favorite cars, leave comments and reviews. The UI of this application was very well executed in this project, given the fact that Handlebars.js were used in place of a more robust frontend framework such as React.",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const projectsData = [
     description:
       "Application allows for users to sign up either as a student or tutor. Students choose a tutor based on the programming language they teach and availability with a calendar. Tutors have the ability to see all their upcoming classes.",
     longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "As part of the Ironhack bootcamp, this capstone project won the crowd favorite award for its relative complexity and execution. Application allows for users to sign up either as a student or tutor. Students choose a tutor based on the programming language they teach and availability with a calendar. Tutors have the ability to see all their upcoming classes. One feature that stands out is the implementation of a calendar component which allows the student to choose their preferable time of class.",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const projectsData = [
     description:
       "Game designed using Canvas API. Functionality allows for two users to play each other. First one to make the ball in all 5 cups wins the game.",
     longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "This was the first project from the Ironhack bootcamp which was meant to reinforce Javascript concepts in a fun way. Game was designed using the Canvas API. Functionality allows for two users to play each other. First one to make the ball in all 5 cups wins the game.",
   },
 ];
 

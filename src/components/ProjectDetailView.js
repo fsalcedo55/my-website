@@ -42,16 +42,20 @@ function ProjectDetailView() {
       </div> */}
       <div className="max-h-fit flex flex-col lg:flex-row xl:flex-row 2xl:flex-row text-center">
         {/* Left side of the screen */}
-        <div className="flex-1 p-4 lg:col-span-2 lg:border-r lg:border-gray-600 lg:pr-8">
-          <img className="rounded-lg" src={currProject.photo} alt="avatar" />
+        <div className="flex-1 lg:col-span-2 lg:border-r lg:border-gray-600 lg:pr-8">
+          <img
+            className="rounded-lg shadow-lg"
+            src={currProject.photo}
+            alt="avatar"
+          />
         </div>
         {/* Right side of the screen */}
-        <div className="flex-1 p-4 text-white">
+        <div className="flex-1 p-4 lg:ml-8 xl:ml-8 2xl:ml-8">
           <div className="font-mono 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 lg:h-14 xl:h-14 2xl:h-14">
             {currProject.name}
           </div>
-          <p className="mt-4 mb-4 text-gray-200 text-xs h-26 sm:h-26 md:h-26 lg:h-28 xl:h-28 2xl:h-24">
-            {currProject.description}
+          <p className="my-4 px-8 text-gray-200 text-xs lg:text-sm xl:text-sm 2xl:text-sm h-26 lg:h-48 xl:h-36 2xl:h-36">
+            {currProject.longDescription}
           </p>
           <div className="text-xs gap-1 truncate flex flex-row flex-wrap justify-center">
             {currProject.techStack.map((tech) => (
