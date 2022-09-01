@@ -1,12 +1,12 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import projectsData from "../data/projectsData";
-import { UsersIcon } from "@heroicons/react/outline";
-import { ExternalLink } from "react-external-link";
+import React from "react"
+import { useParams } from "react-router-dom"
+import projectsData from "../data/projectsData"
+import { UsersIcon } from "@heroicons/react/outline"
+import { ExternalLink } from "react-external-link"
 
 function ProjectDetailView() {
-  const { id } = useParams();
-  const currProject = projectsData.find((project) => project.id === +id);
+  const { id } = useParams()
+  const currProject = projectsData.find((project) => project.id === +id)
 
   return (
     <div className="lg:px-8">
@@ -50,8 +50,8 @@ function ProjectDetailView() {
           />
         </div>
         {/* Right side of the screen */}
-        <div className="flex-1 p-4 lg:ml-8 xl:ml-8 2xl:ml-8">
-          <div className="font-mono 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 lg:h-14 xl:h-14 2xl:h-14">
+        <div className="flex-1 p-4 lg:ml-8">
+          <div className="font-mono lg:text-5xl md:text-4xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 lg:h-24">
             {currProject.name}
           </div>
           <p className="my-4 px-8 text-gray-200 text-xs lg:text-sm xl:text-sm 2xl:text-sm h-26 lg:h-48 xl:h-36 2xl:h-36">
@@ -102,7 +102,7 @@ function ProjectDetailView() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProjectDetailView;
+export default ProjectDetailView
