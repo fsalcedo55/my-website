@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
             I like to build things.
           </div>
           <div className="2xl:text-3xl xl:text-3xl lg:text-3xl md:text-xl text-lg font-extralight text-gray-400 py-4">
-            I'm a full-stack developer who is passionate about building
-            excellent products for people.
+            I'm a full-stack developer who is passionate about building amazing
+            customer experiences.
           </div>
         </div>
         <div className="relative">
@@ -26,5 +26,5 @@ export default function Home() {
         </div>
       </div>
     </section>
-  );
+  )
 }

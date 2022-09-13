@@ -4,8 +4,7 @@ const projectsData = [
     name: "Seamaster",
     techStack: ["React", "Next.js", "Tailwind"],
     teamMembers: [],
-    deployedURL:
-      "https://seacraft-marine-repair-l94jn1moi-fsalcedo55.vercel.app/",
+    deployedURL: "https://seacraft-marine-repair-fsalcedo55.vercel.app/",
     githubURL: "https://github.com/fsalcedo55/underwater-services",
     photo: "/images/seamaster.jpg",
     description: "Marketing website for a local marine repair company.",
